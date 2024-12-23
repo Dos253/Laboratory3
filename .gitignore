@@ -1,29 +1,16 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Исключить все классы скомпилированного Java-кода
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Исключить IntelliJ IDEA конфигурации и папки
+.idea/
+*.iml
 .DS_Store
+
+# Исключить папки сборки
+out/
+build/
+
+# Исключить логи и временные файлы
+*.log
+*.tmp
+*.swp
